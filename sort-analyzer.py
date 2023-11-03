@@ -62,7 +62,7 @@ print(fewUniqueData[0:50])
 
 # EXAMPLE OF HOW TO TIME DURATION OF A SORT ALGORITHM
 startTime = time.time()
-insertionSort(randomData)
+insertionSort(fewUniqueData)
 
 endTime = time.time()
 print(f"Insertion Sort Random Data: {endTime - startTime} seconds")
